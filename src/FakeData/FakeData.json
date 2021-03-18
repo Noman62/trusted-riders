@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "name": "Bike",
+      "image":"https://i.ibb.co/g9dyDnd/bike.jpg",
+      "address":"Rajsahi"
+        
+      },
+       {
+      "id": 2,
+      "name": "Car",
+      "image":"https://i.ibb.co/5MG9Y3F/car.jpg",
+      "address":"Sylhet"
+        
+      },
+       {
+      "id": 3,
+      "name": "Bus",
+      "image":"https://i.ibb.co/GTh2bzR/bus.jpg",
+      "Address":"Khulna"
+        
+      },
+       {
+      "id": 4,
+      "name": "Train",
+      "image":"https://i.ibb.co/kDmzX91/train.jpg",
+      "address":"Satkhira"
+        
+      }
+  ]
