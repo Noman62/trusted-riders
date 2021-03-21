@@ -15,23 +15,24 @@ const useStyle = makeStyles((theme) => ({
 }));
 
 const Home = () => {
-    const [vehicles,setVehicles]=useState([]);
-    const classes=useStyle();
-    useEffect(()=>{
+    const [vehicles, setVehicles] = useState([]);
+    const classes = useStyle();
+    useEffect(() => {
         setVehicles(vehiclesData);
         // console.log(vehiclesData);
-    },[])
+    }, [])
     return (
-        <main className={classes.root}>
-        <Container className={classes.containerRoot} maxWidth="md" >
-            <Grid container spacing={3} justify="center">
-                {
-                    vehicles.map(vehicle=> <VehiclesInfo vehicle={vehicle}></VehiclesInfo>)
-                }
-            </Grid>
-        </Container>
-    </main>
-       
+        <main className={classes.root} style={{ backgroundImage: 'url("https://i.ibb.co/SnyTmkn/Bg.png")' }} >
+            <Container className={classes.containerRoot} maxWidth="md" >
+                <Grid container spacing={3} justify="center">
+                    {
+                        vehicles.map(vehicle => <VehiclesInfo vehicle={vehicle}></VehiclesInfo>)
+                    }
+                </Grid>
+            </Container>
+        </main>
+
+
     );
 };
 
